@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environments
+venv/
+.venv/
+
+# Dataset images
+chest_xray/
+Training/
+Testing/
+train/
+test/
+val/
+
+# Temporary model files
+*.h5
+*.hdf5
+*.weights
+# Keep the initial MRI backup locally
+models/mri_model_initial.keras
+# Dataset archives
+mri.zip
+x ray.zip
+
+# Unrelated document
+1NPDPRO5.DOC
+
+# Extra image copies
+*mri*.png
+*mri*accuracy*.png
+*xray*.png
+*x ray*.png
+*confusion matrix*.png
